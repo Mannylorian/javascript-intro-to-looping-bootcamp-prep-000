@@ -24,5 +24,5 @@ function maybeTrue() {
  
 do {
   array.pop();
-} while (maybeTrue());
+} while (array.length > 0 &&maybeTrue());
 }
