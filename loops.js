@@ -10,9 +10,9 @@ return array;
 }
 
 
-function whileLoop(n){
-  while(n>0){
-  console.log (--n);
+function whileLoop(number){
+  while(number > 0){
+  console.log (-- number);
   return 'done'
   }
 }
