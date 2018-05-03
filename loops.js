@@ -9,7 +9,7 @@ for (i = 0; i < 25; i++) {
 return array;
 }
 
-function whileLoop(n){
+function whileLoop(n=67){
   while(n>0){
   console.log (--n);
   return 'done';
